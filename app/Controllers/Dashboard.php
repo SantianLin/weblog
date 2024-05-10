@@ -3,11 +3,19 @@
 namespace App\Controllers;
  
 use App\Controllers\BaseController;
- 
+use App\Models\PostModel;
+
 class Dashboard extends BaseController
 {
     public function index()
     {
-        return view('dashboard');
+        $model = model(PostModel::class);
+
+        $data = [
+            'post_list' => $model->getTop5Post(),
+            'title'     => 'Posts for you',
+        ];
+
+        return view('dashboard', $data);
     }
 }

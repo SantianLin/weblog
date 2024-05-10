@@ -17,7 +17,28 @@
                     </div>
                 </div>
             </nav>
-            <h2 class="text-center mt-5">User Dashboard</h2  >
+            <h2 class="text-center mt-5"><?= esc($title) ?></h2  >
+
+            <?php if ($post_list !== []): ?>
+
+            <?php foreach ($post_list as $post_item): ?>
+
+                <h3><?= esc($post_item['email']) ?></h3>
+
+                <div class="main">
+                    <?= esc($post_item['content']) ?>
+                </div>
+
+            <?php endforeach ?>
+
+            <?php else: ?>
+
+            <h3>No Posts now</h3>
+
+            <p>Create one yourself?</p>
+
+            <?php endif ?>
+
         </div>
     </div>
      

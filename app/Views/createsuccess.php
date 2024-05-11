@@ -1,4 +1,5 @@
 <?=$this->extend("layout")?>
+  
 <?=$this->section("content")?>
   
 <div class="container">
@@ -6,7 +7,7 @@
         <div class="col-12">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="/dashboard">Home</a>
+                    <a class="navbar-brand" href="<?php echo base_url('/dashboard'); ?>">Home</a>
                     <div class="d-flex">
                         <ul class="navbar-nav">
                             <li class="nav-item">
@@ -17,30 +18,10 @@
                 </div>
             </nav>
             <h2 class="text-center mt-5"><?= esc($title) ?></h2  >
-
-            <?php if ($post_list !== []): ?>
-
-            <?php foreach ($post_list as $post_item): ?>
-
-                <h3>On <?= esc($post_item['created_at']) ?>, <?= esc($post_item['email']) ?> said </h3>
-
-                <div class="main">
-                    <?= esc($post_item['content']) ?>
-                </div>
-
-            <?php endforeach ?>
-
-            <?php else: ?>
-
-            <h3>No Posts now</h3>
-
-            <p>Create one yourself?</p>
-
-            <?php endif ?>
+            <p> Just posted successfully.</p>
 
         </div>
     </div>
-     
 </div>
   
 <?=$this->endSection()?>

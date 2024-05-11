@@ -1,0 +1,151 @@
+INFO - 2024-05-11 00:00:12 --> CSRF token verified.
+INFO - 2024-05-11 00:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-11 00:00:12 --> TypeError: CodeIgniter\CLI\CLI::print(): Argument #1 ($text) must be of type string, null given, called in C:\Users\Mason\Downloads\newproj\framework-4.5.1\app\Controllers\NewPost.php on line 65
+[Method: POST, Route: newpost]
+in SYSTEMPATH\CLI\CLI.php on line 438.
+ 1 APPPATH\Controllers\NewPost.php(65): CodeIgniter\CLI\CLI::print(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NewPost->create()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewPost))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Mason\\Downloads\\newproj\\framework-4.5.1\\public\\index.php')
+INFO - 2024-05-11 00:00:12 --> CSRF token verified.
+INFO - 2024-05-11 00:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-11 00:00:12 --> TypeError: CodeIgniter\CLI\CLI::print(): Argument #1 ($text) must be of type string, null given, called in C:\Users\Mason\Downloads\newproj\framework-4.5.1\app\Controllers\NewPost.php on line 65
+[Method: POST, Route: newpost]
+in SYSTEMPATH\CLI\CLI.php on line 438.
+ 1 APPPATH\Controllers\NewPost.php(65): CodeIgniter\CLI\CLI::print(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NewPost->create()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewPost))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Mason\\Downloads\\newproj\\framework-4.5.1\\public\\index.php')
+INFO - 2024-05-11 00:00:13 --> CSRF token verified.
+INFO - 2024-05-11 00:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-11 00:00:13 --> TypeError: CodeIgniter\CLI\CLI::print(): Argument #1 ($text) must be of type string, null given, called in C:\Users\Mason\Downloads\newproj\framework-4.5.1\app\Controllers\NewPost.php on line 65
+[Method: POST, Route: newpost]
+in SYSTEMPATH\CLI\CLI.php on line 438.
+ 1 APPPATH\Controllers\NewPost.php(65): CodeIgniter\CLI\CLI::print(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NewPost->create()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewPost))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Mason\\Downloads\\newproj\\framework-4.5.1\\public\\index.php')
+INFO - 2024-05-11 00:00:13 --> CSRF token verified.
+INFO - 2024-05-11 00:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-11 00:00:13 --> TypeError: CodeIgniter\CLI\CLI::print(): Argument #1 ($text) must be of type string, null given, called in C:\Users\Mason\Downloads\newproj\framework-4.5.1\app\Controllers\NewPost.php on line 65
+[Method: POST, Route: newpost]
+in SYSTEMPATH\CLI\CLI.php on line 438.
+ 1 APPPATH\Controllers\NewPost.php(65): CodeIgniter\CLI\CLI::print(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NewPost->create()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewPost))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Mason\\Downloads\\newproj\\framework-4.5.1\\public\\index.php')
+INFO - 2024-05-11 00:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-11 00:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-11 00:02:16 --> CSRF token verified.
+INFO - 2024-05-11 00:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-11 00:02:16 --> TypeError: CodeIgniter\CLI\CLI::print(): Argument #1 ($text) must be of type string, null given, called in C:\Users\Mason\Downloads\newproj\framework-4.5.1\app\Controllers\NewPost.php on line 65
+[Method: POST, Route: newpost]
+in SYSTEMPATH\CLI\CLI.php on line 438.
+ 1 APPPATH\Controllers\NewPost.php(65): CodeIgniter\CLI\CLI::print(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NewPost->create()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewPost))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Mason\\Downloads\\newproj\\framework-4.5.1\\public\\index.php')
+CRITICAL - 2024-05-11 00:08:42 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: upload/upload]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('upload/upload', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Mason\\Downloads\\newproj\\framework-4.5.1\\public\\index.php')
+INFO - 2024-05-11 00:10:28 --> CSRF token verified.
+CRITICAL - 2024-05-11 00:12:48 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: upload/upload]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('upload/upload', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Mason\\Downloads\\newproj\\framework-4.5.1\\public\\index.php')
+INFO - 2024-05-11 00:14:03 --> CSRF token verified.
+INFO - 2024-05-11 00:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-11 00:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-11 00:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-11 00:19:22 --> CSRF token verified.
+INFO - 2024-05-11 00:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-11 00:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-11 00:19:55 --> CSRF token verified.
+INFO - 2024-05-11 00:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-11 00:19:55 --> TypeError: CodeIgniter\CLI\CLI::print(): Argument #1 ($text) must be of type string, null given, called in C:\Users\Mason\Downloads\newproj\framework-4.5.1\app\Controllers\NewPost.php on line 65
+[Method: POST, Route: newpost]
+in SYSTEMPATH\CLI\CLI.php on line 438.
+ 1 APPPATH\Controllers\NewPost.php(65): CodeIgniter\CLI\CLI::print(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NewPost->create()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewPost))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Mason\\Downloads\\newproj\\framework-4.5.1\\public\\index.php')
+INFO - 2024-05-11 00:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-11 00:20:09 --> CSRF token verified.
+INFO - 2024-05-11 00:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-11 00:20:09 --> ErrorException: Undefined array key "tags"
+[Method: POST, Route: newpost]
+in APPPATH\Controllers\NewPost.php on line 81.
+ 1 APPPATH\Controllers\NewPost.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tags"', 'C:\\Users\\Mason\\Downloads\\newproj\\framework-4.5.1\\app\\Controllers\\NewPost.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NewPost->create()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewPost))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Mason\\Downloads\\newproj\\framework-4.5.1\\public\\index.php')
+INFO - 2024-05-11 00:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-11 00:45:58 --> CSRF token verified.
+INFO - 2024-05-11 00:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-11 00:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-11 00:46:49 --> CSRF token verified.
+INFO - 2024-05-11 00:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-11 00:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-11 00:47:50 --> CSRF token verified.
+INFO - 2024-05-11 00:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-11 00:47:50 --> ErrorException: Undefined array key "tags"
+[Method: POST, Route: newpost]
+in APPPATH\Controllers\NewPost.php on line 83.
+ 1 APPPATH\Controllers\NewPost.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tags"', 'C:\\Users\\Mason\\Downloads\\newproj\\framework-4.5.1\\app\\Controllers\\NewPost.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NewPost->create()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewPost))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Mason\\Downloads\\newproj\\framework-4.5.1\\public\\index.php')
+INFO - 2024-05-11 00:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-11 00:49:31 --> CSRF token verified.
+INFO - 2024-05-11 00:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

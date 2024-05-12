@@ -7,7 +7,7 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="/dashboard">Home</a>
-                    <a class="navbar-brand" href="/allpost">AllPost</a>
+                    <a class="navbar-brand" href="/allpost">All Post</a>
                     <a class="navbar-brand" href="/newpost">New Post</a>
                     <div class="d-flex">
                         <ul class="navbar-nav">

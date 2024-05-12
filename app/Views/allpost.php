@@ -3,16 +3,27 @@
             <?php if ($post_list !== null): ?>
 
             <?php foreach ($post_list as $post_item): ?>
-
-                <h3>On <?= esc($post_item['created_at']) ?>, <?= esc($post_item['email']) ?> said </h3>
-
+                
+                <p class="font-weight-light">On <?= esc($post_item['created_at']) ?>, <?= esc($post_item['email']) ?> said </p>
                 <?php  
                     if (esc($post_item['image_path']) !== "")
                         echo '<img src= "'.esc($post_item['image_path']).'"width="400" height="300"><br />'
                 ?>
-                <div class="main">
+                <h3>
                     <?= esc($post_item['content']) ?>
-                </div>
+                    
+                </h3>
+                <h4>
+                    <?php
+                        if ($post_item['tags'] !== "") {
+                            $tags = preg_split('/[\ \n\,]+/', $post_item['tags']);
+                            for($tag_index = 1; $tag_index <= count($tags); $tag_index++) { 
+                                echo '<span class="badge badge-pill bg-secondary">#'.$tags[$tag_index-1].'</span>  ';
+                            } 
+                        }
+                    ?>
+                </h4>
+                <hr/>
 
             <?php endforeach ?>
 

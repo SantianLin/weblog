@@ -75,14 +75,18 @@
 
         CLI::print($post['email']);
 
-        $filepath = WRITEPATH . 'uploads/' . $img->store();
+        // $filepath = $img->store('public/assets/uploads/');
+        $imageName = $img->getRandomName(); 
+        // store($imageDirectory, $imageName);
+        $filepath= $img->move(ROOTPATH.'public/assets/uploads/', $imageName);
+        // $img->move(ROOTPATH.'public/assets/uploads/', $fileName);
         // $data = ['uploaded_fileinfo' => new File($filepath)];
 
         $model->save([
             'content'  => $post['content'],
             'email' => $post['email'],
             'tags' => $post['tags'],
-            'image_path' => $filepath,
+            'image_path' => 'assets/uploads/'.$imageName,
         ]);
 
         return view('createsuccess.php', ['title' => 'Create a news item']);

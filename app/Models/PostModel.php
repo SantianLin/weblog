@@ -43,13 +43,34 @@ class PostModel extends Model
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
 
-    public function getPost($email = false)
+    public function getPostByemail($email = false)
     {
         if ($email === false) {
             return $this->findAll();    // get all posts
         }
 
         return $this->where(['email' => $email]);    // get all posts belongs to $user
+    }
+
+    public function getPostByDiv(int $page = 1)
+    {
+        $posts = $this->findAll();    // get all posts
+        $page_post_count = 5;
+        $page_limit = ceil(count($posts) / $page_post_count);
+        if (count($posts) == 0) {
+            return array(1, []);
+        }
+        if ($page > $page_limit)
+            return array(0, null);
+        if (count($posts) <= $page_post_count) {
+            return array(1, $posts);
+        } else {
+            return array(0, null);
+        }
+        {
+            // assert $page <= $page_limit
+            return array($page_limit, array_slice($posts, 0+ $page * $page_post_count, min($page_post_count + ($page * $page_post_count), count($posts)))) ;
+        }
     }
 
     public function getTop5Post()

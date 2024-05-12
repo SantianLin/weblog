@@ -7,7 +7,7 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="/dashboard">Home</a>
-                    <a class="navbar-brand" href="/allpost">AllPost</a>
+                    <a class="navbar-brand" href="/dashboard">AllPost</a>
                     <a class="navbar-brand" href="/newpost">New Post</a>
                     <div class="d-flex">
                         <ul class="navbar-nav">
@@ -20,7 +20,7 @@
             </nav>
             <h2 class="text-center mt-5"><?= esc($title) ?></h2  >
 
-            <?php if ($post_list !== []): ?>
+            <?php if ($post_list !== null): ?>
 
             <?php foreach ($post_list as $post_item): ?>
 
@@ -32,7 +32,7 @@
                 </div>
 
             <?php endforeach ?>
-
+            
             <?php else: ?>
 
             <h3>No Posts now</h3>
@@ -40,7 +40,12 @@
             <p>Create one yourself?</p>
 
             <?php endif ?>
-
+            
+            <?php 
+                for($page = 1; $page<= $number_of_page; $page++) {  
+                    echo '<a href = "allpost/' . $page . '">' . $page . ' </a>';  
+                }  
+            ?>  
         </div>
     </div>
      

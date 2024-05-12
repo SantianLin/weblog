@@ -18,16 +18,22 @@ class AllPost extends BaseController
                 'post_list' => $posts[1],
                 'title' => 'Invalid page number',
                 'number_of_page'  => $posts[0],
+                'current'  =>  $page,
             ];
-            return view('allpost', $data);
+            return view('header').
+            view('allpost', $data).
+            view('footer');
         }
 
         $data = [
             'post_list' => $posts[1],
             'title'     => 'All Posts here',
             'number_of_page'  => $posts[0],
+            'current'  =>  $page,
         ];
 
-        return view('allpost', $data);
+        return view('header').
+            view('allpost', $data).
+            view('footer');
     }
 }

@@ -25,7 +25,7 @@
     {
         helper('form');
 
-        return view('create', ['title' => 'Create a new Post']);
+        return view('header').view('create', ['title' => 'Create a new Post']).view('footer');
     }
 
     public function create()
@@ -60,27 +60,25 @@
         //         'errors' => $this->validator->getErrors()];
         //     return view('create', $data);
         // }
-
-        $img = $this->request->getFile("post_image");
-
-        // CLI::print($img);
-        // $filepath;
-        // if (!$img->hasMoved()) {
-        //     $filepath = WRITEPATH . 'uploads/' . $img->store();
-        //     $data = ['uploaded_fileinfo' => new File($filepath)];
-        //     return view('upload_success', $data);
-        // }
-
         $model = model(PostModel::class);
+        $img = $this->request->getFile("post_image");
+        
+        // CLI::print("n".$img->getName());
 
-        CLI::print($post['email']);
+        if ($img->getName() === "") {
+            $model->save([
+                'content'  => $post['content'],
+                'email' => $post['email'],
+                'tags' => $post['tags'],
+            ]);
 
-        // $filepath = $img->store('public/assets/uploads/');
+            return view('header').
+            view('createsuccess', ['title' => 'Create a news item']).
+            view('footer');
+        }
+
         $imageName = $img->getRandomName(); 
-        // store($imageDirectory, $imageName);
         $filepath= $img->move(ROOTPATH.'public/assets/uploads/', $imageName);
-        // $img->move(ROOTPATH.'public/assets/uploads/', $fileName);
-        // $data = ['uploaded_fileinfo' => new File($filepath)];
 
         $model->save([
             'content'  => $post['content'],
@@ -89,6 +87,8 @@
             'image_path' => 'assets/uploads/'.$imageName,
         ]);
 
-        return view('createsuccess.php', ['title' => 'Create a news item']);
+        return view('header').
+            view('createsuccess', ['title' => 'Create a news item']).
+            view('footer');
     }
  }

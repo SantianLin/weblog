@@ -15,7 +15,7 @@ class Dashboard extends BaseController
             'post_list' => $model->getTop5Post(),
             'title'     => 'Posts for you',
         ];
-        return view('header').
+        return view('header', ['nav'=>1]).
             view('dashboard', $data).
             view('footer');
 

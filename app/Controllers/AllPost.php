@@ -20,7 +20,7 @@ class AllPost extends BaseController
                 'number_of_page'  => $posts[0],
                 'current'  =>  $page,
             ];
-            return view('header').
+            return view('header', ['nav' => 2]).
             view('allpost', $data).
             view('footer');
         }
@@ -32,7 +32,7 @@ class AllPost extends BaseController
             'current'  =>  $page,
         ];
 
-        return view('header').
+        return view('header', ['nav' => 2]).
             view('allpost', $data).
             view('footer');
     }

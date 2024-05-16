@@ -19,7 +19,7 @@ $routes->get('/logout', 'Login::logout', ['filter' => 'authFilter']);
 $routes->get('/dashboard', 'Dashboard::index', ['filter' => 'authFilter']);
 
 $routes->get('/allpost', [AllPost::class, 'index'], ['filter' => 'authFilter']);
-$routes->get('/allpost/(:segment)', 'AllPost::index', ['filter' => 'authFilter']);
+$routes->get('/allpost/(:segment)', [AllPost::class, 'index'], ['filter' => 'authFilter']);
 
 $routes->get('/newpost', [NewPost::class, 'new'], ['filter' => 'authFilter']);
 $routes->post('/newpost', [NewPost::class, 'create'], ['filter' => 'authFilter']);

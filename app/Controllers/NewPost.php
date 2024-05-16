@@ -25,7 +25,7 @@
     {
         helper('form');
 
-        return view('header').view('create', ['title' => 'Create a new Post']).view('footer');
+        return view('header', ['nav' => 3]).view('create', ['title' => 'Create a new Post']).view('footer');
     }
 
     public function create()
@@ -72,7 +72,7 @@
                 'tags' => $post['tags'],
             ]);
 
-            return view('header').
+            return view('header', ['nav' => 3]).
             view('createsuccess', ['title' => 'Create a news item']).
             view('footer');
         }
@@ -87,7 +87,7 @@
             'image_path' => 'assets/uploads/'.$imageName,
         ]);
 
-        return view('header').
+        return view('header', ['nav' => 3]).
             view('createsuccess', ['title' => 'Create a news item']).
             view('footer');
     }
